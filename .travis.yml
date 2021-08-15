@@ -10,5 +10,4 @@ script:
 deploy:
   provider: heroku
   app: test-ci-app2021
-  api_key:
-    secure: 74c80d30-dbf7-40ee-a4d8-19faf94556b1
+  api_key: 74c80d30-dbf7-40ee-a4d8-19faf94556b1
