@@ -7,10 +7,3 @@ cache:
 script:
   - npm test
   - npm run build
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: git@github.com:ilyaVenetrab/react_test.git
-  local_dir: build
-  on:
-    branch: master
